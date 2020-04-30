@@ -6,6 +6,9 @@ open class ABC{
     open fun think(whatsOnMind: String){
         println(whatsOnMind)
         }
+    open fun thinkMore(whatsMoreonMind: String){
+        println(whatsMoreonMind)
+    }
 }
 
 class BCD: ABC(){
